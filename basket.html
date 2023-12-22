@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="basket.css">
+    <script src="https://kit.fontawesome.com/299a3d9f37.js" crossorigin="anonymous"></script>
+    <title>Sama Panier</title>
+
+</head>
+
+<body>
+
+    <div id="basket">
+
+        <div class="item" data-id="1">
+            <span>Perfume Al-Jannah</span>
+            <button class="decrement">-</button>
+            <span class="quantity">1</span>
+            <button class="increment">+</button>
+            <i class="fa-solid fa-heart" id="heart"></i>
+            <button class="delete">Delete</button>
+        </div>
+
+        <div class="item" data-id="2">
+            <span>White Angel Dress</span>
+            <button class="decrement">-</button>
+            <span class="quantity">1</span>
+            <button class="increment">+</button>
+            <i class="fa-solid fa-heart" id="heart"></i>            <button class="delete">Delete</button>
+        </div>
+    </div>
+
+    <div>
+        <p>Total Price: XOF<span id="totalPrice">700000</span></p>
+    </div>
+
+    <script src="basket.js"></script>
+
+
+</body>
+
+</html>
