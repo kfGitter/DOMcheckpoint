@@ -1,10 +1,35 @@
+body{
+    background-color: bisque;
+}
+#headline{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(201, 120, 44);
+}
+
+#panier{
+    color: brown;
+}
+
+#tprice{
+    display: flex;
+    background-color: white;
+    padding: 25px;
+    margin-top: 50px;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    border: 0.1cm;
+    
+}
 .item {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #ccc;
-    padding: 10px;
+    padding: 30px;
     margin-bottom: 5px;
+    background-color: white;
+    width: 70%;
+    margin: auto;
 }
 
 #heart {
@@ -13,6 +38,8 @@
 }
 
 #heart:hover, #heart.active { 
-    color: red;
+    color: rgb(201, 120, 44);
 }
-
+#totalPrice{
+    margin-left: 15%;
+}

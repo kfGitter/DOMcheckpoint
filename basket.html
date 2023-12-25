@@ -11,11 +11,16 @@
 </head>
 
 <body>
-
+    <div id="headline">
+        <h3>Sama Panier
+        <i class="fa-solid fa-cart-shopping" id="panier"></i>    
+        </h3>
+    </div>
     <div id="basket">
 
         <div class="item" data-id="1">
-            <span>Perfume Al-Jannah</span>
+            <span> Perfume Al-Jannah</span>
+            <span id="price1">XOF350000</span>
             <button class="decrement">-</button>
             <span class="quantity">1</span>
             <button class="increment">+</button>
@@ -24,16 +29,19 @@
         </div>
 
         <div class="item" data-id="2">
-            <span>White Angel Dress</span>
+            <span> White Angel Dress</span>
+            <span id="price2">XOF350000</span>
             <button class="decrement">-</button>
             <span class="quantity">1</span>
             <button class="increment">+</button>
-            <i class="fa-solid fa-heart" id="heart"></i>            <button class="delete">Delete</button>
+            <i class="fa-solid fa-heart" id="heart"></i>   
+            <button class="delete">Delete</button>
         </div>
     </div>
 
-    <div>
-        <p>Total Price: XOF<span id="totalPrice">700000</span></p>
+    <div id="tprice">
+        <span>  Total Price:</span>
+        <span id="totalPrice">XOF700000</span>
     </div>
 
     <script src="basket.js"></script>
